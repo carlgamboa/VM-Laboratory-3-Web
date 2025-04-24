@@ -1,6 +1,6 @@
 # VM-Laboratory-3-Web
 
-# 💙 My Cute Flask Web App 🐣✨
+# Frameworks used
 
 > A simple but adorable web app made for **Cognate / Elective Course 1** at **Batangas State University** 💻💙
 
