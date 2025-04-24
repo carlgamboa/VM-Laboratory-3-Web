@@ -8,17 +8,7 @@
 
 ## Frameworks used
 
-- Flask 
-
----
-
-## How to run the project
-
-- **Name**: Bughao, Andrei Dennise R.  
-- **Course**: BS Computer Engineering – 2nd Year  
-- **School**: Batangas State University – Main Campus  
-- **Subject**: Cognate / Elective Course 1  
-- **Design Notes**: Minimalist & mobile-friendly, with emojis to make you smile! 😊
+- Flask
 
 ---
 
