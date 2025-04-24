@@ -1,20 +1,18 @@
 # VM-Laboratory-3-Web
 
-# Frameworks used
+# Laboratory 3
 
-> A simple but adorable web app made for **Cognate / Elective Course 1** at **Batangas State University** 💻💙
-
----
-
-## 🎨 Theme
-
-- **Color Scheme**: Royale Blue + Soft Pastel
-- **Vibes**: Cute, Clean, and Cozy 🌈
-- **Framework**: Flask (I'm also familiar with Django! 😉)
+> A simple web app made in Linux...
 
 ---
 
-## 👩‍💻 Developer Info
+## Frameworks used
+
+- Flask 
+
+---
+
+## How to run the project
 
 - **Name**: Bughao, Andrei Dennise R.  
 - **Course**: BS Computer Engineering – 2nd Year  
@@ -24,72 +22,31 @@
 
 ---
 
-## 📬 Pages Included
+## Any issues encountered and solutions
 
-- 🏠 **Home Page** – Welcome greeting and navigation 💖  
-- 📘 **About Page** – Project info and developer details  
-- 📩 **Contact Page** – Form with fields for name, email, and message
-
-> 🐾 All pages have matching cute styles and Royale Blue theme! 💅
-
+- **Networking** – Could not connect the host to the web. Switched network adapter from NAT to Bridged Adapter.  
+- **Commands** – Certain commands cannot be defined like flask (Command 'flask' cannot be found). Worked around the issue by updating and installing flask (sudo apt install python3-flask) 
+- **Coding** - Trying to add a simple CSS with less experience. I studied for a while to get it run as how i envisioned it in my mind. 
 ---
 
-## 🚀 How to Run the Web App
+## How to Run the Web App
 
-1. 💾 Clone or copy the folder to your Lubuntu VM
-2. 🔧 Open Terminal inside `myapp` folder
-3. 🐍 Run this command:
+> Run theses codes in the terminal (Ubuntu)
 
-```bash
-python3 app.py
-```
-or using Flask CLI:
+1. cd ~/my_flask_app
+2. python3 app.py
 
-```bash
-export FLASK_APP=app.py
-flask run --host=0.0.0.0 --port=5000
-```
+> From here there should be an address running on http://192.168.18.9:5000. Run this address on the host's browser.
 
-## 🌐 Visit your web app in your browser:
 
-```bash
-http://<your-ip>:5000
-```
-Get your IP address using:
-
-```bash
-hostname -I
-```
-
-## 🔐 Allow Port Through Firewall
-
-```bash
-sudo apt install ufw -y
-sudo ufw allow 5000
-```
----
-## 💌 Contact Page Features
-- Form validation ✅
-- Fields: Name, Email, Message
-- Cute submit message with 🥰 emojis
-- Button to send again and return to home 🏠
----
-
-🧁 Extras
-- 🎀 Royale Blue buttons with hover effects
-- 🐣 Centered layout for a warm experience
-- 🧁 Rounded corners and soft shadows
-- 💡 Reflection
-
----
 ## Challenges Faced:
-During deployment, I encountered issues running certain commands like sudo apt install python3-pip and pip3 install flask django on my Lubuntu VM. The commands didn't work without using &&, which caused some confusion. Additionally, there was an error with the __name__ variable in my app.py, which was missing double underscores (__) causing an issue during execution. After fixing these issues, everything ran smoothly.
+While following the procedures, I had issues following in between steps. There are steps where you are to create templates under nano commands before I could actually do the coding. I also had networking issues, when I tried connecting via NAT I could not open the web from the host, then I tried switching to a Bridged Adapter and it worked.    
 
 ## What I Learned:
-I learned that configuring Linux servers for hosting web apps can sometimes be tricky, especially when certain commands don't work as expected due to missing dependencies or incorrect syntax. Setting up firewalls and ensuring the correct IP address is used for accessing the web app remotely is also key.
+Linux is a bit complex because I have to do most things via commands, especially when certain commands don't work but when you get the hang of it gets easier. 
 
 ##  Framework Experience:
-Flask was the easiest for me to use, especially since I’m already familiar with Django. Flask’s minimalistic approach allowed me to focus more on the design and functionality of the app without getting overwhelmed by complex setups.
+Flask was very straightforward and basic, aything else goes down to the coding experience. Styling with .css is easy when you have experience in JAVA and also .jsp to create the very HTML. Most of these I understood because of my experience with JAVA.
 
 ## Real-World Simulation:
 Deploying this app in a VM was a great way to simulate real-world cloud hosting. It gave me insight into how a web app can be hosted on a remote server, accessed via an IP address, and managed through commands in the terminal.
